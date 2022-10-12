@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    color: #40514E;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+}
+.pro{
+    text-decoration: underline;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #8a8f8f;
+    border-width: 6px;
+    width: 4%;
+    margin: 100px auto;
+    /*we can also write=> border: dotted #8a8f8f 6px <=
+    in which dotted indicates the style and next to it indicate color
+    and last 6px indicates the border-width...*/
+}
+.top-container{
+    background-color: #ead9d9;
+    position: relative;
+    padding-top: 100px;
+    /* width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: solid;
+    border-width: 10px; */
+}
+body{
+    margin: 0; /*This indicates the all sides of the margin is zero.*/
+    
+    
+}
+/* for heading, we have to remove margin seperately bcz it has some dafult margins for Heading.  */
+h1{
+    /* font-size: 90px;  90px= 90px/16=5.625% :- in place of 90px we can place */
+    /* (16px = 100% = 1em) we can use em in the place of px or %.
+    So, (90px = 5.625em)BUT em can affect by body font size or external changes.
+    So,here rem is come to the picture. It has same functionality as em but
+    it can't affect by external changes and modify it's self according to page font changes.*/
+    font-size: 5.625rem; /* preferable*/
+    margin: 50px auto 0 auto; 
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2%;
+    
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /*40px => 40px/16 = 2.5% = 2.5rem*/
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+p{
+    line-height: 2;
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+.skill-row{
+    width: 50%;
+    margin: 150px auto 150px auto; /*(top right bottom left) To make .skill-row in the center*/
+    text-align: left;
+    
+}
+.cric{
+    width: 25%;
+    float: left; /* float is use for the arrangement by float the image left side.. */
+    margin-right: 30px;
+}
+.end{
+    color: #EAF6D6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.sketch{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.coder{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    line-height: 40px;
+}
+.middle-container{
+    margin: 100px 0;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Arial';
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
